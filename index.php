@@ -48,10 +48,9 @@ header('Content-Type: text/html; charset=utf-8');
     <main>
         <article>
             <h2>Mon premier article</h2>
-            <p>Ceci est un exemple de contenu généré avec PHP et compatible avec les standards W3C.</p>
+            <p>Bonjour Tristan&nbsp;!</p>
             
             <?php
-            // Exemple d'utilisation de PHP pour afficher la date et l'heure
             echo "<p>Aujourd'hui nous sommes le " . date("d/m/Y") . " et il est " . date("H:i") . ".</p>";
             
             // Exemple de boucle PHP
